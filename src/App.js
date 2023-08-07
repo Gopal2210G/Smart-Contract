@@ -59,7 +59,7 @@ function App() {
       </div>
       <div>
       <input className='box' onChange={handleTodoList}></input>
-        <button className='Count1' onClick={handleGetTodoList}>Get Todolist</button>
+        <button className='Count1' onClick={handleGetTodoList}>Get Todolist of contract</button>
         <h3>{inputListItemRes}</h3>
       </div>
     </div>
